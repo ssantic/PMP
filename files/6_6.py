@@ -1,6 +1,6 @@
 import json
 import os
-import numpy
+import numpy as np
 
 files = []
 for file in os.listdir('C:/PMP/files/scores/'):
@@ -17,6 +17,6 @@ for file in files:
 		literature.append(scores[i]['literature'])
 		math.append(scores[i]['math'])
 	print file
-	print '    science: min ' + str(min(science)) + ', max ' + str(max(science)) + ', average ' + str(numpy.mean(science))
-	print '    literature: min ' + str(min(literature)) + ', max ' + str(max(literature)) + ', average ' + str(numpy.mean(literature))
-	print '    math: min ' + str(min(math)) + ', max ' + str(max(math)) + ', average ' + str(numpy.mean(math))
+	print '    science: min ' + str(min(science)) + ', max ' + str(max(science)) + ', average ' + str(np.mean(science))
+	print '    literature: min ' + str(min(literature)) + ', max ' + str(max(literature)) + ', average ' + str(np.mean(literature))
+	print '    math: min ' + str(min(math)) + ', max ' + str(max(math)) + ', average ' + str(np.mean(math))

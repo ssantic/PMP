@@ -1,0 +1,13 @@
+# Sample chapter
+## Exercise 1
+Do something
+### Solution
+I did something!
+### Discussion
+Doing something is great
+## Exercise 2
+Do something else
+### Solution
+I did something else!
+### Discussion
+Good for you, that you did something else!
